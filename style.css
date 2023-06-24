@@ -1,0 +1,144 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #ffcda8;
+  font-family: "Poppins", sans-serif;
+}
+
+/* Header */
+
+header,
+nav,
+section,
+.bio-container {
+  width: 1000px;
+  margin: auto;
+  background-color: white;
+  border-bottom: 2px solid darkgrey;
+}
+
+header img {
+  width: 90px;
+  float: left;
+  /* margin-right: 20px;
+  margin-left: 20px; */
+  margin: 25px;
+}
+
+header h1 {
+  float: left;
+  margin-top: 30px;
+  font-size: 35px;
+  font-weight: normal;
+  margin-left: 20px;
+}
+
+.fix-container {
+  clear: both;
+}
+
+/* Nav */
+
+ul li {
+  list-style: none;
+}
+
+nav {
+  padding: 20px 0;
+}
+
+nav ul li {
+  display: inline;
+  margin-left: 40px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.last-menu {
+  margin-right: 40px;
+}
+
+.left-menu {
+  float: left;
+}
+
+.right-menu {
+  float: right;
+  margin-right: 40px;
+}
+
+/* Main Content */
+section {
+  border-bottom: 2px solid darkgrey;
+}
+
+section h2 {
+  text-align: center;
+  padding: 20px;
+}
+
+.article {
+  width: 285px;
+  float: left;
+  margin-left: 35px;
+}
+
+.article p {
+  text-align: justify;
+  margin-bottom: 20px;
+}
+
+.article-container img {
+  width: 285px;
+  margin-bottom: 20px;
+}
+
+.article button {
+  display: block;
+  margin: auto;
+  margin-bottom: 40px;
+}
+
+/* Biodata */
+
+.bio-container img {
+  width: 150px;
+  float: left;
+  margin: 20px 0;
+  margin-left: 40px;
+}
+
+.bio-info {
+  float: right;
+  width: 800px;
+  border-bottom: 2px solid darkgrey;
+}
+
+.bio-info p {
+  text-align: justify;
+  margin-right: 40px;
+  margin-left: 40px;
+}
+
+.bio-info h3 {
+  text-align: center;
+  margin: 20px 0;
+}
+
+.bio-info .text-right {
+  border-bottom: 2px solid darkgrey;
+  display: block;
+  text-align: right;
+  margin-right: 40px;
+}
+
+.bio-info ul li {
+  display: block;
+  text-align: right;
+  margin-right: 40px;
+}
